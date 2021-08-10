@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: #230404; */
+    background: linear-gradient(180deg,#230404,#c59123);
+
+}
+.logo{
+    text-align: center;        
+}
+.container{
+    background-color: white;
+    
+    width: 360px;
+    
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 50px;
+
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+
+    border-radius:10px;          
+}
+.heading{
+    text-align: center;
+    font-family: Quattrocento;
+    font-size: larger;
+     
+}
+label{
+    font-size: large;
+    font-family: Quattrocento;
+    font-weight: bold;
+}
+
+
+.name{
+   display: flex;
+   max-width: 0%;
+}
+.name input{        
+    height: 35px;
+    width: 150px;        
+    text-align: center;
+    font-size: large;
+    margin-right: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-width: 2px;
+}
+.detail input{
+    height: 35px;
+    width: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: large;
+    border-radius: 5px;
+    border-width: 2px;
+}
+button{
+   width: 300px;
+   height: 35px;
+   margin-left: 30px;
+   background: linear-gradient(135deg,#230404,#c59123);
+   color: white;
+   font-size: large;
+  
+}
+button:hover{
+    background: linear-gradient(135deg,#c59123,#230404);
+    cursor: pointer;     
+    
+}
+.room label{
+    margin-right: 30px;
+}
+.checkin input{
+    width: 150px;
+    border-radius: 5px;
+    /* text-align: center; */
+}
+.checkin #checkin{
+    margin-left: 10px;
+}
+.checkout input{
+    width: 150px;
+    border-radius: 5px;
+    /* text-align: center; */
+}
+.checkout #checkout{
+    margin-left: 3px;
+}
+.checkin #checkintime{
+    margin-left: 7px;
+}
+.people select{
+    margin-right: 30px;
+}
+.people label{
+    margin-right: 5px;
+}
+
